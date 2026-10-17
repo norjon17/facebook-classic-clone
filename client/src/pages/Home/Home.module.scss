@@ -1,0 +1,51 @@
+@use '../../styles/variables' as *;
+
+.home {
+  display: flex;
+  gap: 16px;
+}
+
+.left {
+  width: 170px;
+}
+
+.feed {
+  flex: 1;
+}
+
+.right {
+  width: 250px;
+}
+
+.menu a {
+  display: block;
+  padding: 4px 6px;
+
+  &:hover {
+    background: $blue-light;
+    text-decoration: none;
+  }
+}
+
+.title {
+  font-size: 14px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $gray-border;
+}
+
+.box {
+  margin-bottom: 12px;
+
+  h3 {
+    background: $blue-bg;
+    border-top: 1px solid $blue-light;
+    padding: 4px 6px;
+    font-size: 11px;
+  }
+
+  p {
+    padding: 6px;
+    color: $gray-text;
+  }
+}

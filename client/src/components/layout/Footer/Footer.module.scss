@@ -1,0 +1,16 @@
+@use '../../../styles/variables' as *;
+
+.footer {
+  width: $page-width;
+  margin: 0 auto;
+  padding: 8px 0 24px;
+  border-top: 1px solid $gray-border;
+  display: flex;
+  justify-content: space-between;
+  color: $gray-text;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
