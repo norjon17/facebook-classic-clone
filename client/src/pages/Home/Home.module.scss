@@ -34,18 +34,6 @@
   border-bottom: 1px solid $gray-border;
 }
 
-.box {
-  margin-bottom: 12px;
-
-  h3 {
-    background: $blue-bg;
-    border-top: 1px solid $blue-light;
-    padding: 4px 6px;
-    font-size: 11px;
-  }
-
-  p {
-    padding: 6px;
-    color: $gray-text;
-  }
+.boxText {
+  color: $gray-text;
 }

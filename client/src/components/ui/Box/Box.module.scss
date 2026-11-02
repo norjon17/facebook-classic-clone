@@ -1,0 +1,16 @@
+@use '../../../styles/variables' as *;
+
+.box {
+  margin-bottom: 12px;
+}
+
+.title {
+  background: $blue-bg;
+  border-top: 1px solid $blue-light;
+  padding: 4px 6px;
+  font-size: 11px;
+}
+
+.content {
+  padding: 6px;
+}

@@ -1,0 +1,30 @@
+@use '../../../styles/variables' as *;
+
+.field {
+  display: flex;
+  gap: 4px;
+}
+
+.top {
+  flex-direction: column;
+}
+
+.left {
+  align-items: center;
+  gap: 8px;
+
+  .label {
+    width: $label-width;
+    text-align: right;
+  }
+}
+
+.label {
+  color: $gray-text;
+  font-weight: bold;
+}
+
+.input {
+  padding: 3px;
+  border: 1px solid $input-border;
+}

@@ -1,0 +1,45 @@
+@use '../../../styles/variables' as *;
+
+.button {
+  padding: 2px 6px;
+  border: 1px solid;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+.primary {
+  background: $button-blue;
+  border-color: $button-blue-border;
+  color: $white;
+
+  &:active {
+    background: $button-blue-border;
+  }
+}
+
+.secondary {
+  background: $button-gray;
+  border-color: $button-gray-border;
+  color: $text;
+
+  &:active {
+    background: $button-gray-border;
+  }
+}
+
+.signup {
+  padding: 6px 20px;
+  background: $green;
+  border-color: $green-dark;
+  color: $white;
+  font-size: 13px;
+
+  &:active {
+    background: $green-dark;
+  }
+}

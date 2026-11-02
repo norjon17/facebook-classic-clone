@@ -1,3 +1,4 @@
+import Box from '../../components/ui/Box/Box'
 import styles from './Home.module.scss'
 
 type SidebarBox = {
@@ -32,10 +33,9 @@ export default function Home() {
 
       <aside className={styles.right}>
         {rightBoxes.map((item) => (
-          <div key={item.title} className={styles.box}>
-            <h3>{item.title}</h3>
-            <p>{item.text}</p>
-          </div>
+          <Box key={item.title} title={item.title}>
+            <p className={styles.boxText}>{item.text}</p>
+          </Box>
         ))}
       </aside>
     </div>
